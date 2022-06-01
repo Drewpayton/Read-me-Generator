@@ -63,47 +63,49 @@ inquirer
         github,
         email
     }) => {
-        const readme = ` # ${Title}
+       const readme = ` # ${Title}
+## Table of contents
 
-        * [Description](# Description)
-        * [Installation](# Installation)
-        * [Usage](# Usage)
-        * [Contributing](# Contributing)
-        * [license](# license)
-        * [Tests](# Tests)
-        * [Questions](# github)
+- [Description](#description)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Contributing](#contributing)
+- [License](#license)
+- [Tests](#tests)
+- [Questions](#github)
 
 
+       
+## Description
 
+${Description}
 
-        #  Description
+## Installation
 
-        ${Description}
+${Installation}
 
-        # Installation
+## Usage
 
-        ${Installation}
+${Usage}
 
-        # Usage
+## Contributing
 
-        ${Usage}
+${Contributing}
 
-        # Contributing
+## License
 
-        ${Contributing}
+${license}
 
-        # license
+## Tests
 
-        ${license}
+${Tests}
 
-        # Tests
+## Questions
+${github}
 
-        ${Tests}
+${"https://github.com/" + github}
 
-        # Questions
-        ${github}
-        ${"https://github.com/" + github}
-        ${email}
+${email}
         `
         createReadMe(Title, readme)
 
