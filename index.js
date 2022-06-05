@@ -73,6 +73,7 @@ inquirer
 - [License](#license)
 - [Tests](#tests)
 - [Questions](#github)
+- [Contact Me](#Contact-Me)
 
 
        
@@ -104,6 +105,8 @@ ${Tests}
 ${github}
 
 ${"https://github.com/" + github}
+
+## Contact-Me 
 
 ${email}
         `
